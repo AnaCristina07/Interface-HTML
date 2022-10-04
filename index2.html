@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ana Cristina">
+    <meta name="description" content="Página de viagens">
+    <meta name="keywords" content="Praia, Viagens, férias">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="estilo2.css">
+    <link rel="shortcut icon" href="img/icons8-buquê-de-flores-48.png" type="image/x-icon">
+    <title>Uniflores-Floricultura</title>
+</head>
+<body>
+  <section class="showcase active">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle active"></div>
+    </header>
+    <video src="img/pexels-roman-odintsov-5926141.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Uniflores</h2> 
+      <h3>Demonstre seu carinho através da Uniflores, sua floricultura online</h3>
+      <p>Em Busca de uma Floricultura com Lindos Buquês de Flores? Acesse o site e faça seu pedido.</p>
+      <a href="#">Explorar</a>
+    </div>
+    <ul class="social">
+      <li><a href="#"><img src="img/facebook.png"></a></li>
+      
+      <li><a href="#"><img src="img/twitter.png"></a></li>
+      
+      <li><a href="#"><img src="img/instagram.png"></a></li>
+    </ul>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Casa</a></li>
+      <li><a href="#">Novidades</a></li>
+      <li><a href="#">Destino</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </div>
+  <script>
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+  
+  menuToggle.addEventListener('click', () =>{
+    menuToggle.classList.toggle('active')
+    showcase.classList.toggle('active')
+  })
+  </script>
+  </body>
+</html>
